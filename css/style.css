@@ -7,16 +7,63 @@
 
 /* VARIÁVEIS
 **************************************/
-.primary {
+:root {
+  /* PRIMARY */
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
-}
 
-.neutral {
+  /* NEUTRAL */
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
 }
 
-/*
+/* ESTILOS GERAIS
 **************************************/
+body {
+  background-color: var(--pale-blue);
+}
+
+/* ID'S E CLASSES
+**************************************/
+.attribution {
+  text-align: center;
+}
+
+.card {
+  max-width: 375px;
+  margin: 90px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 180px;
+  background-image: url(../images/illustration-hero.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+}
+
+.main {
+  background-color: var(--very-pale-blue);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-texts {
+  text-align: center;
+  padding: 40px;
+}
+.main-texts h1 {
+  color: var(--dark-blue);
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.main-texts p {
+  color: var(--desaturated-blue);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
