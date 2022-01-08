@@ -45,7 +45,7 @@ body {
 .header {
   height: 180px;
   background-image: url(../images/illustration-hero.svg);
-  background-size: 55vw;
+  background-size: 35vw;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
