@@ -21,6 +21,9 @@
 }
 
 body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-position: top;
   background-color: var(--pale-blue);
 }
 
