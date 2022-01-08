@@ -32,7 +32,7 @@ body {
 
 .card {
   max-width: 375px;
-  margin: 90px auto;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
 }
@@ -64,6 +64,38 @@ body {
 .main-texts p {
   color: var(--desaturated-blue);
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.8rem;
+}
+
+.change-plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 0 30px;
+}
+.change-plan img {
+  width: 20%;
+}
+.change-plan a {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: var(--bright-blue);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: -25px;
+}
+.text-container h3 {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.text-container p {
+  color: var(--desaturated-blue);
+  font-weight: 700;
 }
