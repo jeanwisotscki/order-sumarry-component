@@ -8,6 +8,7 @@
   /* NEUTRAL */
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
+  --hover-blue: hsla(245, 75%, 52%, 0.705);
   --dark-blue: hsl(223, 47%, 23%);
 }
 
@@ -93,6 +94,10 @@ body {
   font-weight: 900;
   color: var(--bright-blue);
 }
+.change-plan a:hover {
+  color: var(--hover-blue);
+  text-decoration: none;
+}
 
 .text-container {
   display: flex;
@@ -122,6 +127,9 @@ body {
   border: none;
   border-radius: 10px;
 }
+.btn-proceed:hover {
+  background-color: var(--hover-blue);
+}
 
 .btn-cancel {
   background-color: rgb(238, 241, 247);
@@ -135,4 +143,7 @@ body {
   margin-bottom: 20px;
   border: none;
   border-radius: 10px;
+}
+.btn-cancel:hover {
+  color: rgba(22, 21, 21, 0.767);
 }
