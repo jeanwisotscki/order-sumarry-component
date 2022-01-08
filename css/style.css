@@ -99,3 +99,15 @@ body {
   color: var(--desaturated-blue);
   font-weight: 700;
 }
+
+.btn-proceed {
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  width: 85%;
+  height: 60px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 1px auto;
+  border-radius: 10px;
+}
