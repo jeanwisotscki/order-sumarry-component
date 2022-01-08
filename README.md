@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+See the project on this link: https://jeanwisotscki.github.io/order-sumarry-component/
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
